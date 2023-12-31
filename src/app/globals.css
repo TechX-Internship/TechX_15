@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: #D1B06B;
+    --color-secondary: #989898;
+    --font-outfit: 'Outfit', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.outfit {
+    font-family: var(--font-outfit);
+}
+
+.playfair {
+    font-family: var(--font-playfair);
+}
+
+header .menu li {
+    transition: all 0.2s linear;
+    font-family: var(--font-outfit);
+}
+
+header .menu li:hover {
+    color: var(--color-primary);
+}
+
+.btn-outline-primary {
+    transition: all 0.2s ease;
+    border: 1px solid var(--color-primary);
+    padding: 10px 30px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--color-primary);
+}
+
+.main-banner {
+    background-image: url('/main-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner-side-img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 0;
+    top: 0;
+}
