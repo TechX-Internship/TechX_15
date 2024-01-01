@@ -57,3 +57,10 @@ header .menu li:hover {
     left: 0;
     top: 0;
 }
+
+.bg-hotels{
+    background-image: url('/hotels.png');
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+}

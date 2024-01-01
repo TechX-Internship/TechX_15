@@ -16,7 +16,7 @@ const AboutUs = () => {
                 <div className='w-6/12 px-3'>
                     <Image src={'/about-left.jpg'} quality={100} layout='responsive' width={100} height={100} alt='Not Available' className='about-img' />
                 </div>
-                <div className='w-6/12 px-3'>
+                <div className='w-6/12 pl-10'>
                     <h6 className='outfit mb-6 text-2xl color-primary'>ABOUT US</h6>
                     <h3 className="playfair mb-6 text-5xl capitalize text-white">Crafting <span className="color-primary">Unforgettable</span> Experiences at <span className="color-primary">Park Infinity</span> </h3>
                     <p className='color-secondary outfit mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at orci aliquet, lobortis sapien et, posuere mi. Nullam at tellus enim. Praesent eros neque, malesuada eu velit ut, vestibulum commodo mi. Ut augue diam, vehicula et cursus sit amet, sagittis consequat lectus. Vestibulum interdum ultricies maximus. Aenean egestas sodales vehicula.</p>
@@ -24,7 +24,7 @@ const AboutUs = () => {
                         {
                             list.map((item, idx) => (
                                 <li className='outfit text-white mb-2 font-light' key={idx}>
-                                    <i class="ri-checkbox-circle-line mr-2 color-primary"></i>
+                                    <i className="ri-checkbox-circle-line mr-2 color-primary"></i>
                                     <span>{item}</span>
                                 </li>
                             ))
