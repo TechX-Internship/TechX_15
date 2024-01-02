@@ -8,7 +8,10 @@
     --font-outfit: 'Outfit', sans-serif;
     --font-playfair: 'Playfair Display', serif;
 }
-
+.border-primary{
+    border-color: var(--color-primary);
+    border-style: solid;
+}
 .color-primary {
     color: var(--color-primary);
 }
@@ -70,11 +73,6 @@ header .menu li:hover {
     background-position: center center;
     height: 70vh;
 }
-
-.border-primary{
-    border-color: var(--color-primary);
-    border-style: solid;
-}
 .video-section{
     background-image: url('/video-section-bg.jpg');
     background-size: cover;
@@ -93,4 +91,7 @@ header .menu li:hover {
     background-color: white;
     transition: all 0.2s linear;
     border: 1px solid var(--color-primary);
+}
+.form input::placeholder{
+    color: gray;
 }

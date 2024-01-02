@@ -4,6 +4,7 @@ import AboutUs from "./Components/AboutUs";
 import Hotels from "./Components/Hotels";
 import Offerings from "./Components/Offerings";
 import VideoSection from "./Components/VideoSection";
+import ReserveFormSection from "./Components/ReserveFormSection";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
             <Offerings />
             <Hotels />
             <VideoSection />
+            <ReserveFormSection />
         </>
     )
 }
