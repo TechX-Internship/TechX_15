@@ -64,3 +64,8 @@ header .menu li:hover {
     background-position: center center;
     height: 70vh;
 }
+
+.border-primary{
+    border-color: var(--color-primary);
+    border-style: solid;
+}
