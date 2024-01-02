@@ -5,6 +5,7 @@
 :root {
     --color-primary: #D1B06B;
     --color-secondary: #989898;
+    --color-less-dark: #1E1E1E;
     --font-outfit: 'Outfit', sans-serif;
     --font-playfair: 'Playfair Display', serif;
 }
@@ -20,6 +21,9 @@
 }
 .bg-primary {
     background-color: var(--color-primary);
+}
+.bg-less-dark {
+    background-color: var(--color-less-dark);
 }
 .bg-secondary {
     background-color: var(--color-secondary);
