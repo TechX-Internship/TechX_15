@@ -32,16 +32,16 @@ const Footer = () => {
                 <div>
                     <ul className="flex gap-3">
                         <li className="color-primary text-2xl">
-                            <i class="ri-google-fill"></i>
+                            <i className="ri-google-fill"></i>
                         </li>
                         <li className="color-primary text-2xl">
-                            <i class="ri-linkedin-box-fill"></i>
+                            <i className="ri-linkedin-box-fill"></i>
                         </li>
                         <li className="color-primary text-2xl">
-                            <i class="ri-instagram-fill"></i>
+                            <i className="ri-instagram-fill"></i>
                         </li>
                         <li className="color-primary text-2xl">
-                            <i class="ri-twitter-fill"></i>
+                            <i className="ri-twitter-fill"></i>
                         </li>
                     </ul>
                 </div>

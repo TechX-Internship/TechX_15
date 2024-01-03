@@ -6,6 +6,7 @@ import Offerings from "./Components/Offerings";
 import VideoSection from "./Components/VideoSection";
 import ReserveFormSection from "./Components/ReserveFormSection";
 import Footer from "@/components/Footer";
+import RoomsAndSuits from "./Components/RoomsAndSuits";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <Header />
             <MainBanner />
             <AboutUs />
+            <RoomsAndSuits />
             <Offerings />
             <Hotels />
             <VideoSection />

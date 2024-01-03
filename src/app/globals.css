@@ -37,12 +37,12 @@
     font-family: var(--font-playfair);
 }
 
-header .menu li {
+.menu li {
     transition: all 0.2s linear;
     font-family: var(--font-outfit);
 }
 
-header .menu li:hover {
+.menu li:hover {
     color: var(--color-primary);
 }
 
